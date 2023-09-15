@@ -1,0 +1,38 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Shoma KANNO'
+theme = "m10c"
+paginate = 8
+
+[menu]
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 2
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 3
+
+[params]
+author = "Shoma KANNO"
+description = "音声合成・変換に興味があります"
+menu_item_separator = " - "
+
+[[params.social]]
+icon = "github"
+name = "My Github"
+url = "https://github.com/s-ktmy"
+
+# Green theme
+[params.style]
+darkestColor = "#2c4f54"
+darkColor = "#1f3134"
+primaryColor = "#aacf53"

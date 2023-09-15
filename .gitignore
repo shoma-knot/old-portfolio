@@ -1,0 +1,4 @@
+public/
+content/posts/test*.md
+resources
+.hugo_build.lock
