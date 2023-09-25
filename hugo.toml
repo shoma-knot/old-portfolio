@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'Shoma KANNO'
+languageCode = 'ja-jp'
+title = "Shoma Kanno"
 theme = "m10c"
 paginate = 8
 
@@ -18,7 +18,7 @@ weight = 2
 [[menu.main]]
 identifier = "about"
 name = "About"
-url = "/about/"
+url = "/fixed/about/"
 weight = 3
 
 [params]
@@ -29,7 +29,7 @@ menu_item_separator = " - "
 [[params.social]]
 icon = "github"
 name = "My Github"
-url = "https://github.com/s-ktmy"
+url = "https://github.com/shoma-knot"
 
 # Green theme
 [params.style]
