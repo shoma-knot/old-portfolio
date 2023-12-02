@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://shoma-knot.github.io/'
 languageCode = 'ja-jp'
 title = "Shoma Kanno"
 theme = "m10c"
@@ -23,13 +23,19 @@ weight = 3
 
 [params]
 author = "Shoma KANNO"
-description = "音声合成・変換に興味があります"
+description = "パラ言語情報の知覚・音声変換に興味があります"
 menu_item_separator = " - "
+
 
 [[params.social]]
 icon = "github"
 name = "My Github"
 url = "https://github.com/shoma-knot"
+
+[[params.social]]
+icon = "twitter"
+name = "My Twitter Account"
+url = "https://twitter.com/sh_knot"
 
 # Green theme
 [params.style]
